@@ -100,7 +100,7 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 * Creating Rule With Only Machine Learning
 * Creating Rule With only Sensors and Actuators
 
-**A brief explanation on how to create rule with various modes is explained [here](Link for PDF will be given) with image representation under the appropriate topics**
+**A brief explanation on how to create rule with various modes is explained [here](https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V3_0/blob/master/How%20to%20use%20Paasmer%20Edge%20Rules%20Engine.pdf) with image representation under the appropriate topics**
 
 #### Rule Deployment
 * After successfully creating a rule, Check the `Features` tab if the **Edge Rules** feature is Running. If the Status is `running`, get back to the `Edge Rules` page and click `Deploy` button. 
