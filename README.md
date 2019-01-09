@@ -62,7 +62,7 @@ $ sudo ./Paasmer3.0
 ```
 This script will install the required packages, Paasmer containers(Paasmer Features) and also build the dockers. 
 
-* Enter your developers.paasmer.co login credentials to login to Paasmer platform
+* Enter your `developers.paasmer.co` login credentials to login to Paasmer platform
 
 * After successful log-in, It will ask for creating a new device. 
 
@@ -93,7 +93,7 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 **Note - A sample code is provided in `PaasmerLibrary` directory**
 
 #### Rule Creation
-* Log in to [Paasmer platform](developers.paasmer.co) and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
+* Log in to [Paasmer platform](https://developers.paasmer.co) and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
 
 ##### Use Cases for Edge Rules
 * Creating Rule With Edge Analytics and Machine Learning
