@@ -69,7 +69,7 @@ This script will install the required packages, Paasmer containers(Paasmer Featu
 * Wohooo! That's all. You device is now expected to be connected with Paasmer platform and you can manage the Device from Paasmer WEBUI
 
 #### Machine Learning Cloud Initialization
-* After successfully activating the license, You can find `Machine Learning` tab on the Device page in Web UI. 
+* After successfully activating the license, If you purchsed a license which includes Machine Learning, you can find `Machine Learning` tab on the Device page in Web UI. 
 
 * Click on `Create` button, Enter a unique Model name for your model and that must be alphanumeric without any spaces[a-z A-Z 0-9].
 * Then Upload the sample dataset (any .csv format file) and click on `upload` button. 
@@ -93,7 +93,7 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 **Note - A sample code is provided in `PaasmerLibrary` directory**
 
 #### Rule Creation
-* Log in to [Paasmer platform](developers.paasmer.co) and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
+* Log in to [Paasmer platform](developers.paasmer.co){:target="_blank"} and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
 
 ##### Use Cases for Edge Rules
 * Creating Rule With Edge Analytics and Machine Learning
@@ -101,7 +101,7 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 * Creating Rule With Only Machine Learning
 * Creating Rule With only Sensors and Actuators
 
-**A brief explanation on how to create rule with various modes is explained [here](https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V3_0/blob/master/How%20to%20use%20Paasmer%20Edge%20Rules%20Engine.pdf) with image representation under the appropriate topics**
+**A brief explanation on how to create rule with various modes is explained [here](https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V3_0/blob/master/How%20to%20use%20Paasmer%20Edge%20Rules%20Engine.pdf){:target="_blank"} with image representation under the appropriate topics**
 
 #### Rule Deployment
 * After successfully creating a rule, Check the `Features` tab if the **Edge Rules** feature is Running. If the Status is `running`, get back to the `Edge Rules` page and click `Deploy` button. 
