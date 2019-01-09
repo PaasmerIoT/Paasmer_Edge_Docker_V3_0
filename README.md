@@ -57,7 +57,8 @@ $ cd Paasmer_Edge_Docker_V3_0
 
 * Run the file using the command.
 ```
-$ sudo ./Paasmer-3.0
+$ sudo chmod 777 Paasmer3.0
+$ sudo ./Paasmer3.0
 ```
 This script will install the required packages, Paasmer containers(Paasmer Features) and also build the dockers. 
 
