@@ -32,9 +32,9 @@ The new **Edge Rules Engine** feature can empower customers to automate control 
 **Paasmer Library** is set of functions that can be used to connect, subscribe and publish to the Paasmer gateway easily and more efficiently in a single function call. It can also support Edge Analytics and Machine Learning on any feed while publishing. It has separate CallBack for each feed and thus making the connection simple. It can also support WiFi, Bluetooth and Zigbee Protocol support to control specific wireless devices.
 
 ## Pre Requisites
-* Registration on the [PAASMER portal](http://developers.paasmer.co) is necessary to connect the devices to the **Paasmer IoT Platform**. 
+* Registration on the [PAASMER platform](https://developers.paasmer.co) is necessary to connect the devices to the **Paasmer IoT Platform**. 
 * An SBC board with any Linux flavoured OS installed on it.
-
+ 
 ## Device Creation
 The device creation can be done by two ways. Either from Web UI or from the Device side.
 #### Web UI
@@ -93,7 +93,7 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 **Note - A sample code is provided in `PaasmerLibrary` directory**
 
 #### Rule Creation
-* Log in to [Paasmer platform](developers.paasmer.co){:target="_blank"} and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
+* Log in to [Paasmer platform](developers.paasmer.co) and select a device in the docker devices tab. Click on `Edge Rules tab` and select Create, enter the required Rule name and Click `Submit`. Decide on the details of the rule to be created with what feeds, what services, what conditions, what needs to be achieved and how can be achieved. drag and drop feeds, actuators and services according to the plan follow the use cases to create a rule.
 
 ##### Use Cases for Edge Rules
 * Creating Rule With Edge Analytics and Machine Learning
@@ -101,10 +101,10 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 * Creating Rule With Only Machine Learning
 * Creating Rule With only Sensors and Actuators
 
-**A brief explanation on how to create rule with various modes is explained [here](https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V3_0/blob/master/How%20to%20use%20Paasmer%20Edge%20Rules%20Engine.pdf){:target="_blank"} with image representation under the appropriate topics**
+**A brief explanation on how to create rule with various modes is explained [here](https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V3_0/blob/master/How%20to%20use%20Paasmer%20Edge%20Rules%20Engine.pdf) with image representation under the appropriate topics**
 
 #### Rule Deployment
-* After successfully creating a rule, Check the `Features` tab if the **Edge Rules** feature is Running. If the Status is `running`, get back to the `Edge Rules` page and click `Deploy` button. 
+* After successfully creating a rule, get back to the `Edge Rules` page and click `Deploy` button. 
 * Once it is successfully deployed,You will receive a success message. Now we have to configure the Edge.
 
 #### Edge Configuration
