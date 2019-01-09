@@ -114,10 +114,10 @@ test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 ```
     test.publish_Rule("feedname",feedValue = 9)
 ```
-* Wohooo! That's it. Now follow the steps in the Readme file to run the `PaasmerLibrary`.
+* Wohooo! That's it. Now create the required number of feeds and their types in the Paasmer Platform Web UI and follow the steps in the Readme file to run the `PaasmerLibrary`.
 
 ## Getting started with Paasmer Python Library
-Here is a very simple example that connects to the Paasmer Gateway, subscribes and Publishes to Paasmer platform enabling the user to access and read the feeds.
+Here is a very simple example that connects to the Paasmer Gateway, subscribes and Publishes to Paasmer platform enabling the user to access and read the feeds. 
 
 ### Importing Paasmer Library
 Open `paasmerLibrary` directory and start building the script.
